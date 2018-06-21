@@ -1,0 +1,18 @@
+<resources>
+    <!-- Definicion del nombre de la app como tambien los modo y menu  -->
+    <string name="app_name">SSBIOBIOBETA</string>
+    <string name="title_activity_main_joven">MainAvanzadoActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Cambiar Modo</string>
+
+    <string name="sharedPreID">shared.app.preferences</string>
+    <string name="title_activity_main_avanzado"> Servicio Salud Bío-Bío</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Farmacias de Turno</string>
+</resources>

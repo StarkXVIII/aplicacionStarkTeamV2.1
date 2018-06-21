@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultadoConsulta">
+
+
+    <TextView
+        android:id="@+id/resultado_descripcionCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Descripción Codigo"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/resultado_codigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/resultado_descripcionCodigo"
+        android:text="Código"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/resultado_paciente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/resultado_codigo"
+        android:text="Paciente:"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+
+
+    <TextView
+        android:id="@+id/resultado_fechaAsiganda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/resultado_paciente"
+        android:text="Fecha Asignada:"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/resultado_profesional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/resultado_fechaAsiganda"
+        android:text="Profesional:"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/resultado_policlinico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/resultado_profesional"
+        android:text="Policlinico:"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/resultado_ubicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/resultado_policlinico"
+        android:text="Ubicación:"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/resultado_tipoHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/resultado_ubicacion"
+        android:text="Tipo Hora:"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+
+
+
+
+
+
+
+</RelativeLayout>

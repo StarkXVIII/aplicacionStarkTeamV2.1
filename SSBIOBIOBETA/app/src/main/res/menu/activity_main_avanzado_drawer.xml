@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/botonUno"
+            android:icon="@drawable/mini_hora"
+            android:title="Consulta Hora Médica" />
+        <item
+            android:id="@+id/botonDos"
+            android:icon="@drawable/mini_paciente"
+            android:title="Consulta Estado del Paciente" />
+        <item
+            android:id="@+id/botonTres"
+            android:icon="@drawable/mini_farmacia"
+            android:title="Farmacia de Turno" />
+        <item
+            android:id="@+id/botonCuatro"
+            android:icon="@drawable/mini_visita"
+            android:title="Horario de Visita" />
+        <item
+            android:id="@+id/botonCinco"
+            android:icon="@drawable/mini_sangre"
+            android:title="Donar Sangre" />
+        <item
+            android:id="@+id/botonSeis"
+            android:icon="@drawable/mini_cartera"
+            android:title="Cartera de Servicios" />
+        <item
+            android:id="@+id/botonSiete"
+            android:icon="@drawable/mini_contacto"
+            android:title="Salud Responde" />
+
+
+    </group>
+
+    <item android:title="Stark Team">
+        <menu>
+            <item
+                android:id="@+id/contactar"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Contactar" />
+            <item
+                android:id="@+id/salir"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Salir" />
+        </menu>
+    </item>
+
+</menu>

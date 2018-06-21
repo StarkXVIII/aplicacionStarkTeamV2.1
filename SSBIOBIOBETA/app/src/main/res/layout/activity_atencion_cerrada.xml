@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AtencionCerrada">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/consultaboton"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/azulboton"
+            android:text="Hospitalización" />
+
+        <TextView
+            android:id="@+id/consulta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/consultaboton"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:text="-Área Medico Quirúrgico Cuidados Básicos
+-Área Medico Quirúrgico Cuidados Medios
+-Área Cuidado Intensivo Adulto
+-Área Cuidado Intermedio Adulto
+-Área Medico Quirúrgico Pediátrico Cuidados Básicos
+-Área Cuidado Intermedio Pediátrico
+-Área Neonatología Cuidados Básicos
+-Área Obstétrica
+-Área Pensionado"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/consultaboton2"
+            style="@style/ButtonText"
+            android:background="@drawable/azulboton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/consulta"
+            android:layout_centerHorizontal="true"
+
+            android:text="Intervención Quirúrgica" />
+
+        <TextView
+            android:id="@+id/consulta2"
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:layout_below="@+id/consultaboton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="-Oftalmológica
+-Otorrinolaringológica
+-Tiroides
+-Plástica y reparadora
+-Tegumentos
+-Cardiovascular
+-De tórax
+-Abdominal
+-Proctológica
+-Urológica y suprarrenal
+-De la mama (un lado)
+-Ginecológica
+-Obstétrica y partos
+-Traumatología" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

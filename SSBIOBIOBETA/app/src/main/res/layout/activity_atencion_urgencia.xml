@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AtencionUrgencia">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/consulta"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="155dp"
+            android:text="-Consulta Médico general
+-Consulta Gineco-obstétrica
+-Consulta Medicina Interna (No todos los turnos)
+-Consulta Médica Cirujano
+-Consulta Traumatólogo (Consutor de Llamada)
+-Consulta de Urgencia Pediatra
+-Matrona
+-Consulta Odontólogo" />
+
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.ubiobio.nicolas.ssbiobiobeta.BotonFarmaciaTurno"
+    android:background="@drawable/background">
+    <!-- se establece la visualizacion que tendra la funcion del boton 3, ya sea el tamaño del texto, donde ira, etc -->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="90dp"
+        app:srcCompat="@drawable/foto_farmacia" />
+
+    <RelativeLayout
+        android:id="@+id/progressBar1"
+        android:visibility="visible"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/back_progress_bar"
+        android:padding="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:indeterminateTint="@color/pink"
+            />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="16dp"></ListView>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="123dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text=" > Farmacias de turno disponibles en el horario actual correspondientes a la provincia del Bío Bío." />
+
+
+</RelativeLayout>

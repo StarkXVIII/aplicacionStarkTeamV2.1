@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.ubiobio.nicolas.ssbiobiobeta.BotonCarteraServicios"
+    android:background="@drawable/background_dos">
+    <!-- se establece la visualizacion que tendra la funcion del boton 6, ya sea el tamaño del texto, donde ira, etc -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="263dp"
+        android:layout_height="182dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/cartera_servicios" />
+
+    <TextView
+        android:id="@+id/textocartera"
+        android:layout_width="334dp"
+        android:layout_height="112dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="> La Cartera de Servicios del Hospital de Linares es el resultado de las distintas líneas de producción de servicios que posee el Establecimiento, generadas a partir de sus diferentes procesos productivos, clasificados en clínicos y de apoyo clínico."
+        android:textAlignment="center" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="69dp">
+
+        <Button
+            android:id="@+id/abierta"
+            android:layout_width="match_parent"
+
+            android:layout_height="50dp"
+            android:layout_above="@+id/urgencia"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/azulboton"
+            android:text="Atención Abierta" />
+
+        <Button
+            android:id="@+id/urgencia"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_above="@+id/cerrada"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/azulboton"
+            android:text="Atención Urgencia" />
+
+        <Button
+            android:id="@+id/cerrada"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_above="@+id/apoyo"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/azulboton"
+            android:text="Atención Cerrada" />
+
+        <Button
+            android:id="@+id/apoyo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/azulboton"
+            android:text="Apoyo Clínico" />
+    </RelativeLayout>
+
+</RelativeLayout>

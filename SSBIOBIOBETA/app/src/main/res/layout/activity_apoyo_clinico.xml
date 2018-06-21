@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApoyoClinico">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+
+            android:id="@+id/consultaboton"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/azulboton"
+            android:text="Exámenes de laboratorio" />
+
+        <TextView
+            android:id="@+id/consulta"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/consultaboton"
+            android:layout_centerHorizontal="true"
+            android:text="-Sangre Hematología
+-Exámenes Bioquímicos
+-Hormonas
+-Inmunología
+-Exámenes microbiológicos
+-Exámenes de deposiciones
+-Exudados
+-Secreciones y otros líquidos
+-Exámenes orina"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/consultaboton2"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/consulta"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/azulboton"
+            android:text="Exámenes de imagenología" />
+
+        <TextView
+            android:id="@+id/consulta2"
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:layout_below="@+id/consultaboton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="-Exámenes radiológicos simples
+-Exámenes radiológicos complejos
+-Tomografía axial computarizada (TAC)
+-Ultrasonografía
+-Medicina nuclear y radioterapia
+" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

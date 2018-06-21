@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AtencionAbierta">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/consultaboton"
+            style="@style/ButtonText"
+            android:background="@drawable/azulboton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+
+            android:text="Consultas Médicas
+Especialidades y Subespecialidades" />
+
+        <TextView
+            android:id="@+id/consulta"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/consultaboton"
+            android:layout_centerHorizontal="true"
+            android:text="-Pediatría
+-Medicina Interna
+-Neonatología
+-Broncopulmonar
+-Cardiología Adulto / Infantil con PLAN 500
+-Gastroenterología Adulto
+-Nefrología Adulto
+-Neurología Adulto / Infantil
+-Psiquiatría Adulto / Infante Juvenil  (PLAN 500)
+-Cirugía Infantil
+-Cirugía Adulto
+-Cirugía de Mamas con Patología Mamaria
+-Obstetricia y Ginecología
+-Oftalmología Indiferenciado
+-Otorrinolaringología Indiferenciado
+-Traumatología Adulto / Infantil
+-Urología
+-Anestesiología
+-Cirugía Bucal
+-Cirugía  y Traumatología Máxilo Facial
+-Endodoncia
+-Odontopediatría
+-Operatoria
+-Ortodoncia
+-Periodoncia Rehabilitación: Prótesis removible"
+            android:visibility="gone" />
+
+        <Button
+            style="@style/ButtonText"
+            android:background="@drawable/azulboton"
+            android:id="@+id/consultaboton2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/consulta"
+            android:layout_centerHorizontal="true"
+            android:text="Consultas Otros Profesionales de Salud" />
+
+        <TextView
+            android:id="@+id/consulta2"
+            android:textSize="20sp"
+            android:visibility="gone"
+            android:layout_below="@+id/consultaboton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="-Consulta o control por enfermera
+-Consulta o control por matrona
+-Consulta o control por nutricionista
+-Consulta o control por psicólogo clínico
+-Consulta de salud mental por asistente social
+-Consulta por Fonoaudiólogo
+-Consultas de Asistente Social
+-Consultas de Tecnólogo Médico de Oftalmología
+-Consultas de Odontólogo
+-Consultas Kinesiólogo" />
+
+        <Button
+            style="@style/ButtonText"
+            android:background="@drawable/azulboton"
+            android:id="@+id/consultaboton3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/consulta2"
+            android:layout_centerHorizontal="true"
+            android:text="Cirugía mayor ambulatoria" />
+
+        <TextView
+            android:id="@+id/consulta3"
+            android:textSize="20sp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/consultaboton3"
+            android:layout_centerHorizontal="true"
+            android:text="-Neurocirugía
+-Oftalmología
+-Otorrinolaringología
+-De cabeza y cuello tiroidectomía
+-Plástica y reparadora
+-Cardiovascular
+-Abdominal
+-Urología y suprarrenal
+-de la mama (un lado)
+-Obstetricia y partos
+-Traumatología
+-Retiro de elementos de osteosíntesis" />
+
+        <Button
+            style="@style/ButtonText"
+            android:background="@drawable/azulboton"
+            android:id="@+id/consultaboton4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/consulta3"
+            android:layout_centerHorizontal="true"
+            android:text="Otras actividades de atención abierta" />
+
+        <TextView
+            android:id="@+id/consulta4"
+            android:textSize="20sp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/consultaboton4"
+            android:layout_centerHorizontal="true"
+            android:text="-Educación de grupo
+-Visitas domiciliarias
+-Vacunación y desparasitación
+-Misceláneos
+-Lentes y audífonos
+-Compin" />
+
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
